@@ -1,11 +1,37 @@
 package edu.mcdaniel.java2206.template.replacewithprojectname;
 
 import edu.mcdaniel.java2206.template.replacewithprojectname.components.Example;
+import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
+
+	//=============================================================================================
+	// Private Assets
+	//=============================================================================================
+
+	private Logger log;
+
+
+	//=============================================================================================
+	// Constructor(s)
+	//=============================================================================================
+
+	public Application(){}
+
+
+	//=============================================================================================
+	// Major Methods
+	//=============================================================================================
+
+	//No major methods to implement
+
+
+	//=============================================================================================
+	// PSVM
+	//=============================================================================================
 
 	public static void main(String[] args) {
 
@@ -26,5 +52,19 @@ public class Application {
 		System.out.println(exampleWithCustomGreeting.getMessage());
 
 	}
+
+
+	//=============================================================================================
+	// Minor Methods(s)
+	//=============================================================================================
+
+	//No minor methods made
+
+
+	//=============================================================================================
+	// Getters and Setters
+	//=============================================================================================
+
+	//No private assets we want to expose
 
 }
