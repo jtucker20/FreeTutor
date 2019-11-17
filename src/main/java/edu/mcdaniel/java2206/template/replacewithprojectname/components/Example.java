@@ -1,5 +1,6 @@
 package edu.mcdaniel.java2206.template.replacewithprojectname.components;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Example {
@@ -21,6 +22,10 @@ public class Example {
     public Example(){
         this.greeting = "Hello";
         this.audience = "World";
+
+        this.log = LogManager.getLogger(this);
+
+        log.debug("The output message is {} {}!", this.greeting, this.audience);
     }
 
 
@@ -32,12 +37,16 @@ public class Example {
 
         this.greeting = customGreeting;
 
+        log.debug("The greeting was changed to: {}", this.greeting);
+
         return this;
     }
 
     public Example withAudience(String customAudience){
 
         this.audience = customAudience;
+
+        log.debug("The audience was changed to: {}", this.audience);
 
         return this;
     }
