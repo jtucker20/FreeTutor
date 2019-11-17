@@ -19,7 +19,9 @@ public class Application {
 	// Constructor(s)
 	//=============================================================================================
 
-	public Application(){}
+	public Application(){
+		//This constructor is empty as no additional information need be provided.
+	}
 
 
 	//=============================================================================================

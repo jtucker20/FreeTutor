@@ -9,7 +9,7 @@ public class Example {
     // Private Assets
     //=============================================================================================
 
-    private Logger log;
+    private final Logger log;
 
     private String greeting;
     private String audience;
