@@ -1,4 +1,4 @@
-package edu.mcdaniel.java2206.template.replacewithprojectname;
+package edu.mcdaniel.freetutor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

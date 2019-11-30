@@ -1,7 +1,7 @@
-# template
-The template to be used to start a project.
+# FreeTutor
+The free tutoring application.
 
-##THIS TEMPLATE FILE MUST BE UPDATED FOR EVERY SINGLE PROJECT WITH:
-1. Purpose
-2. Problem being solved
-3. How to use program
+##Why Free Tutor?
+1. To provide free Tutoring to an and all students
+2. Education requires personal interaction and facilitating that is difficult.  Let's make education free! How? That's what this project is to figure out!
+3. The program will be a Spring Boot based project using a multifaceted approach to learning.

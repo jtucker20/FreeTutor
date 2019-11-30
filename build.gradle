@@ -5,8 +5,7 @@ plugins {
     id 'idea'
 }
 
-group = 'edu.mcdaniel.java2206.template'
-version = '0.0.1'
+group = 'edu.mcdaniel.freetutor'
 sourceCompatibility = '11'
 
 repositories {
